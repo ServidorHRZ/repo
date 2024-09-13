@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alquiler de Autos</title>
+    <link rel="stylesheet" href="styles-home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <div class="barra-superior">
+            <p>Bienvenido a Alquiler de Autos – La mejor agencia de alquiler</p>
+            <div class="enlaces-sociales">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+            <div class="inicio-registro">
+                <a href="#">Iniciar sesión</a> | <a href="#">Registrarse</a>
+            </div>
+        </div>
+
+        <nav class="barra-navegacion">
+            <div class="contenedor-logo">
+                <img src="tu-logo.png" alt="Logo de Rent A Car">
+            </div>
+            <ul class="menu-principal">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Autos</a></li>
+                <li><a href="#">Páginas</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+            <div class="iconos-usuario">
+                
+                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Sección principal -->
+    <section class="principal">
+        <div class="contenido-principal">
+            <h1>Alquiler de Autos Baratos en tu Destino Deseado</h1>
+            <p>Una de nuestras principales prioridades es ajustar cada paquete a las necesidades exactas de nuestros clientes. Alquiler de coches, furgonetas, jeeps desde $69 / día.</p>
+            <p>Embárcate en aventuras inolvidables y descubre el mundo con un confort y estilo inigualables con nuestra flota de autos excepcionalmente cómodos.</p>
+        </div>
+
+        <!-- Formulario de búsqueda -->
+        <div class="formulario-busqueda">
+            <h2>¿Buscando un vehículo?</h2>
+            <p>Encuentra el coche perfecto para tu viaje.</p>
+
+            <form action="#" method="post">
+                <label for="ubicacion-recogida">Ubicación de recogida</label>
+                <input type="text" id="ubicacion-recogida" name="ubicacion_recogida" placeholder="Ciudad, aeropuerto, hotel, etc.">
+
+                <label for="ubicacion-devolucion">Ubicación de devolución</label>
+                <input type="text" id="ubicacion-devolucion" name="ubicacion_devolucion" placeholder="Ciudad, aeropuerto, hotel, etc.">
+
+                <label for="fecha-hora-recogida">Fecha y hora de recogida</label>
+                <input type="date" id="fecha-recogida" name="fecha_recogida">
+                <input type="time" id="hora-recogida" name="hora_recogida">
+
+                <label for="fecha-hora-devolucion">Fecha y hora de devolución</label>
+                <input type="date" id="fecha-devolucion" name="fecha_devolucion">
+                <input type="time" id="hora-devolucion" name="hora_devolucion">
+
+                <button type="submit">Buscar un auto</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
